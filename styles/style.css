@@ -135,7 +135,7 @@ body {
     rgba(255, 0, 0, 0.1) 0%,
     rgba(255, 0, 0, 0) 100%
   );
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   border-radius: 16px;
   display: flex;
@@ -145,8 +145,8 @@ body {
 }
 
 .join-now-container div {
-    padding: 100px;
-    line-height: 1.5;
+  padding: 100px;
+  line-height: 1.5;
 }
 
 .join-now-container span {
@@ -178,4 +178,73 @@ body {
   font-style: normal;
   font-weight: 700;
   margin-top: 30px;
+}
+
+/*! Best Offer Section Style  */
+.best-offer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.best-offer-img {
+  width: 260px;
+  height: 260px;
+  border-radius: 463px;
+  border: 15px solid #f00;
+  padding: 20px;
+
+}
+
+.best-offer-img img {
+  width: 260px;
+  height: 260px;
+}
+
+.best-offer-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.best-offer-title-2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.best-offer-des {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.twenty-four {
+    line-height: 1.5;
+}
+
+.twenty-four img {
+    margin-top: 20px;
+}
+
+.twenty-four-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.twenty-four-des {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
 }
