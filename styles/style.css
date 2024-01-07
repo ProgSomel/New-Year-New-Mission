@@ -98,6 +98,7 @@ body {
   align-items: center;
   margin-top: 40px;
   gap: 40px;
+  margin-bottom: 100px;
 }
 
 .welcome-content-title {
@@ -125,4 +126,56 @@ body {
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
+}
+
+/*! Join Now Section Style  */
+.join-now-container {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.join-now-container div {
+    padding: 100px;
+    line-height: 1.5;
+}
+
+.join-now-container span {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.join-now-container p {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.join-now-container button {
+  border-radius: 8px;
+  background: #f00;
+  border: none;
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 30px;
 }
