@@ -185,9 +185,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 40px;
   width: 95%;
   margin: 0 auto;
+  padding-left: 50px;
 }
 
 .best-offer-img {
@@ -196,7 +197,6 @@ body {
   border-radius: 463px;
   border: 15px solid #f00;
   padding: 20px;
-
 }
 
 .best-offer-img img {
@@ -228,11 +228,11 @@ body {
 }
 
 .twenty-four {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 .twenty-four img {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .twenty-four-title {
@@ -247,4 +247,84 @@ body {
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
+}
+
+/*! Holiday Sale Styles  */
+.holiday-sale {
+  width: 95%;
+  margin: 140px auto;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.holiday-sale-title {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.holiday-sale-title2 span {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.holiday-sale-title2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.holiday-sale-des {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.holiday-sale-img-container {
+  display: flex;
+  justify-content: center;
+  margin-right: 25px;
+  position: absolute;
+  top: 220.6rem;
+}
+
+.holiday-container {
+  margin-top: 440px;
+}
+
+.red-div {
+  background-color: red;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  
+  
+}
+
+.fifty-discount {
+    position: absolute;
+    width: 40%;
+    left: 680px;
+    top: 14px;
+}
+
+.gift-img {
+    width: 80%;
+}
+
+.girl-img {
+    width: 40%;
+    margin-left: 84px;
+    position: absolute;
+    top: 18px;
 }
